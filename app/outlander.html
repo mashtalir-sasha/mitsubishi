@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>Mitsubishi</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!--
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="">
+	<meta property="og:image" content=""/>
+	-->
+
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<meta name="theme-color" content="#ED0022">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+	<link rel="preload" as="font" href="fonts/MMCOFFICE-Bold/MMCOFFICE-Bold.woff"  crossorigin>
+	<link rel="preload" as="font" href="fonts/MMCOFFICE-Medium/MMCOFFICE-Medium.woff"  crossorigin>
+	<link rel="preload" as="font" href="fonts/MMCOFFICE-Regular/MMCOFFICE-Regular.woff"  crossorigin>
+
+</head>
+
+<body>
+
+<nav class="nav">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-2 col-6">
+				<a href="index.html" class="nav-logo">
+					<picture>
+						<source srcset="img/logo.webp" type="image/webp">
+						<img src="img/logo.png" alt="logo">
+					</picture>
+					<span class="nav-logo__txt">Интеравто-Полтава</span>
+				</a>
+			</div>
+			<div class="col-md-7 d-none d-md-block">
+				<ul class="nav-list">
+					<li class="nav-list__li"><a href="index.html">Главная</a></li>
+					<li class="nav-list__li"><a href="#lising" class="anchor">Лизинг</a></li>
+					<li class="nav-list__li"><a href="#tradein" class="anchor">Trade In</a></li>
+					<li class="nav-list__li"><a href="#credit" class="anchor">Кредитование</a></li>
+					<li class="nav-list__li"><a href="#reviews" class="anchor">Отзывы</a></li>
+					<li class="nav-list__li"><a href="#about" class="anchor">О нас</a></li>
+					<li class="nav-list__li"><a href="specials.html">Акции</a></li>
+					<li class="nav-list__li"><a href="#contacts" class="anchor">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2 d-none d-md-block">
+				<a href="tel:+380504050555" class="nav-phone">+38 (050) 405 05 55</a>
+			</div>
+			<div class="col-md-1 d-none d-md-block">
+				<div class="nav-lang">
+					<a href="#" class="nav-lang__item active">Ru</a>
+					<a href="#" class="nav-lang__item">Ukr</a>
+				</div>
+			</div>
+			<div class="col-6 d-block d-md-none">
+				<button class="nav-mob__link">
+					<img src="img/menu.svg" alt="menu">
+				</button>
+			</div>
+		</div>
+	</div>
+	<nav class="nav-mob d-flex d-md-none">
+		<div class="container">
+			<ul class="nav-list">
+				<li class="nav-list__li"><a href="index.html">Главная</a></li>
+				<li class="nav-list__li"><a href="#lising" class="anchor">Лизинг</a></li>
+				<li class="nav-list__li"><a href="#tradein" class="anchor">Trade In</a></li>
+				<li class="nav-list__li"><a href="#credit" class="anchor">Кредитование</a></li>
+				<li class="nav-list__li"><a href="#reviews" class="anchor">Отзывы</a></li>
+				<li class="nav-list__li"><a href="#about" class="anchor">О нас</a></li>
+				<li class="nav-list__li"><a href="specials.html">Акции</a></li>
+				<li class="nav-list__li"><a href="#contacts" class="anchor">Контакты</a></li>
+			</ul>
+			<a href="tel:+380504050555" class="nav-phone">+38 (050) 405 05 55</a>
+			<div class="nav-lang">
+				<a href="#" class="nav-lang__item active">Ru</a>
+				<a href="#" class="nav-lang__item">Ukr</a>
+			</div>
+		</div>
+	</nav>
+</nav>
+
+<nav class="model-menu d-none d-md-block">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-2">
+				<a href="pajero.html" class="model-menu-item">
+					<picture>
+						<source srcset="img/model-menu1.webp" type="image/webp">
+						<img src="img/model-menu1.png" alt="model" class="model-menu-item__img">
+					</picture>
+					<p class="model-menu-item__txt">Pajero Sport</p>
+				</a>
+			</div>
+			<div class="col-md-2">
+				<a href="asx.html" class="model-menu-item">
+					<picture>
+						<source srcset="img/model-menu2.webp" type="image/webp">
+						<img src="img/model-menu2.png" alt="model" class="model-menu-item__img">
+					</picture>
+					<p class="model-menu-item__txt">ASX</p>
+				</a>
+			</div>
+			<div class="col-md-2">
+				<a href="l200.html" class="model-menu-item">
+					<picture>
+						<source srcset="img/model-menu3.webp" type="image/webp">
+						<img src="img/model-menu3.png" alt="model" class="model-menu-item__img">
+					</picture>
+					<p class="model-menu-item__txt">L200</p>
+				</a>
+			</div>
+			<div class="col-md-2">
+				<a href="outlander.html" class="model-menu-item active">
+					<picture>
+						<source srcset="img/model-menu4.webp" type="image/webp">
+						<img src="img/model-menu4.png" alt="model" class="model-menu-item__img">
+					</picture>
+					<p class="model-menu-item__txt">Outlander</p>
+				</a>
+			</div>
+			<div class="col-md-2">
+				<a href="eclipse-cross.html" class="model-menu-item">
+					<picture>
+						<source srcset="img/model-menu5.webp" type="image/webp">
+						<img src="img/model-menu5.png" alt="model" class="model-menu-item__img">
+					</picture>
+					<p class="model-menu-item__txt">Eclipse Cross</p>
+				</a>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<header class="page-head page-head_v2">
+	<picture>
+		<source srcset="img/pages/outlander/head_bg.webp" type="image/webp">
+		<img src="img/pages/outlander/head_bg.jpg" alt="model" class="page-head__bg">
+	</picture>
+	<div class="container">
+		<div class="row align-items-end">
+			<div class="col-lg-7 col-md-8">
+				<h1 class="page-ttl">В OUTLANDER ВСЕГДА НАЙДЕТСЯ МЕСТО ДЛЯ САМОГО ГЛАВНОГО!</h1>
+				<p class="page-txt">От городских улиц до дальних дорог и внедорожных приключений - непредсказуемые условия могут встретиться где угодно.<br><br>Outlander готов принять этот вызов!</p>
+			</div>
+			<div class="col-12">
+				<div class="page-btn">
+					<a href="#modal" class="page-btn__link fancybox open" data-title="Вы може оставить заявку руководителю нашего автоцентра и он подберет <span>лучшее предложение</span> для Вас" data-button="Отправить" data-form="Получить персональное предложение"><span>Получить персональное предложение</span></a>
+					<a href="#modal" class="page-btn__link fancybox open" data-title="Вы можете <span>забронировать авто</span> своей мечты прямо на сайте" data-button="Забронировать" data-form="Забронировать авто"><span>Забронировать авто</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section class="advantages">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-sm-6">
+				<div class="advantages-ttl">
+					<span class="advantages-ttl__note">Advantages</span>
+					<h3 class="advantages-ttl__ttl">Преимущества <span>OUTLANDER</span></h3>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-sm-6">
+				<div class="advantages-item">
+					<div class="advantages-item__img">
+						<img src="img/pages/outlander/adv_ico1.svg" alt="advantages">
+					</div>
+					<h4 class="advantages-item__ttl">Вместительность</h4>
+					<p class="advantages-item__txt">Outlander по праву называют семейным автомобилем. Он доступен и в 7-ми местном исполнении, с третьим рядом сидений. При этом второй ряд оснащен сдвижными сидениями, позволяющими трансформировать салон, для удобства посадки и высадки пассажиров с 3-го ряда. При необходимости Вы всегда сможете сложить сидения третьего ряда в один прием и, таким образом, увеличить багажник</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="advantages-item">
+					<div class="advantages-item__img">
+						<img src="img/pages/outlander/adv_ico2.svg" alt="advantages">
+					</div>
+					<h4 class="advantages-item__ttl">Дизайн</h4>
+					<p class="advantages-item__txt">Лаконичный дизайн салона автомобиля подчеркивает практичность, комфорт и сочетает в себе качественные материалы отделки и современные технологии<br><br>Помимо обновлённого дизайна, автомобиль получил усовершенствованную шумоизоляцию задней части и сниженный уровень шумов от двигателя, что повышает акустический комфорт в салоне</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="advantages-item">
+					<div class="advantages-item__img">
+						<img src="img/pages/outlander/adv_ico3.svg" alt="advantages">
+					</div>
+					<h4 class="advantages-item__ttl">Безопасность</h4>
+					<p class="advantages-item__txt">Система адаптивного круиз-контроля поддерживает установленную скорость движения и заранее установленную дистанцию между Вашим автомобилем и автомобилем спереди.<br>Система контроля слепых зон<br>Blind spot Warning (BSW)<br>Система помощи при трогании на подъеме</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="large-img">
+	<div class="large-img__note large-img__note_last">OUTLANDER</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="large-img__wrap">
+					<picture>
+						<source srcset="img/pages/outlander/large1.webp" type="image/webp">
+						<img src="img/pages/outlander/large1.jpg" alt="model">
+					</picture>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="large-img__wrap">
+					<picture>
+						<source srcset="img/pages/outlander/large2.webp" type="image/webp">
+						<img src="img/pages/outlander/large2.jpg" alt="model">
+					</picture>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="large-img__wrap">
+					<picture>
+						<source srcset="img/pages/outlander/large3.webp" type="image/webp">
+						<img src="img/pages/outlander/large3.jpg" alt="model">
+					</picture>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="large-img__wrap">
+					<picture>
+						<source srcset="img/pages/outlander/large4.webp" type="image/webp">
+						<img src="img/pages/outlander/large4.jpg" alt="model">
+					</picture>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="info">
+	<div class="container">
+		<div class="row align-items-end">
+			<div class="col-md-6">
+				<h3 class="info-ttl">OUTLANDER</h3>
+				<div class="info-item">
+					<img src="img/pages/outlander/info_ico1.svg" alt="ico" class="info-item__ico">
+					<p class="info-item__txt">Надежный мотор “миллионник” и современная CVT Jatco 8 поколения сочетают в себе надежность, динамику и экономичность</p>
+				</div>
+				<div class="info-item">
+					<img src="img/pages/outlander/info_ico2.svg" alt="ico" class="info-item__ico">
+					<p class="info-item__txt">Камеры кругового обзора и контроль слепых зон - Ваша безопасность где угодно</p>
+				</div>
+				<div class="info-item">
+					<img src="img/pages/outlander/info_ico3.svg" alt="ico" class="info-item__ico">
+					<p class="info-item__txt">Четыре режима полного привода и комплексная система стабилизации S-AWC</p>
+				</div>
+				<div class="info-item">
+					<img src="img/pages/outlander/info_ico4.svg" alt="ico" class="info-item__ico">
+					<p class="info-item__txt">Двухзонный климат-контроль во всех комплектациях</p>
+				</div>
+				<ul class="info-list">
+					<li class="info-list__item">большой, семейный кроссовер, который на данный момент является флагманом модельного ряда</li>
+					<li class="info-list__item">новая мультимедийная система Mitsubishi connect с поддержкой Car Play и Android Auto и возможностью навигации</li>
+					<li class="info-list__item">безупречная система активной и пассивной безопасности не только для водителей и пассажиров, но и для пешеходов, 5 звезд по рейтингу безопасности Euro NCar</li>
+					<li class="info-list__item">доступны модели на 5 и 7 мест</li>
+					<li class="info-list__item">сочетание основных принципов Mitsubishi - комфорта, безопасности и заботы об окружающей среде</li>
+					<li class="info-list__item">крышка багажника с электроприводом, система бесключевого доступа в салон и запуск двигателя кнопкой</li>
+				</ul>
+				<div class="info-btn">
+					<a href="#modal" class="info-btn__link fancybox open" data-title="Вы можете <span>скачать прайс</span> на все комплектации" data-button="Скачать прайс" data-form="Скачать прайс-лист всех комплектаций" data-price="https://drive.google.com/file/d/1VfBxXslMIJGOyOtNPWecEO1l6014b6L7/view?usp=sharing"><span>Скачать прайс-лист всех комплектаций</span></a>
+					<a href="#modal" class="info-btn__link fancybox open" data-title="Запишитесь на <span>лучший тест - драйв</span> в Вашей жизни!" data-button="Хочу тест- драйв" data-form="Тест - драйв"><span>Хочу тест-драйв</span></a>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<picture>
+					<source srcset="img/pages/outlander/color_picker.webp" type="image/webp">
+					<img src="img/pages/outlander/color_picker.png" alt="program" class="info-img">
+				</picture>
+				<div class="info-video">
+					<iframe src="https://www.youtube.com/embed/SUnkvHpGxzo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		<div class="row d-none d-md-flex">
+			<div class="col-sm-4 align-self-end">
+				<picture>
+					<source srcset="img/pages/outlander/last1.webp" type="image/webp">
+					<img src="img/pages/outlander/last1.jpg" alt="program" class="info-last">
+				</picture>
+			</div>
+			<div class="col-sm-5 align-self-center">
+				<picture>
+					<source srcset="img/pages/outlander/last2.webp" type="image/webp">
+					<img src="img/pages/outlander/last2.jpg" alt="program" class="info-last">
+				</picture>
+			</div>
+			<div class="col-sm-3 align-self-start">
+				<picture>
+					<source srcset="img/pages/outlander/last3.webp" type="image/webp">
+					<img src="img/pages/outlander/last3.jpg" alt="program" class="info-last">
+				</picture>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div class="info-slider">
+					<div>
+						<a href="img/pages/outlander/slider/1.jpg" data-fancybox="slider">
+							<picture>
+								<source srcset="img/pages/outlander/slider/1.webp" type="image/webp">
+								<img src="img/pages/outlander/slider/1.jpg" alt="program" class="info-slider__slide">
+							</picture>
+						</a>
+					</div>
+					<div>
+						<a href="img/pages/outlander/slider/2.jpg" data-fancybox="slider">
+							<picture>
+								<source srcset="img/pages/outlander/slider/2.webp" type="image/webp">
+								<img src="img/pages/outlander/slider/2.jpg" alt="program" class="info-slider__slide">
+							</picture>
+						</a>
+					</div>
+					<div>
+						<a href="img/pages/outlander/slider/3.jpg" data-fancybox="slider">
+							<picture>
+								<source srcset="img/pages/outlander/slider/3.webp" type="image/webp">
+								<img src="img/pages/outlander/slider/3.jpg" alt="program" class="info-slider__slide">
+							</picture>
+						</a>
+					</div>
+					<div>
+						<a href="img/pages/outlander/slider/4.jpg" data-fancybox="slider">
+							<picture>
+								<source srcset="img/pages/outlander/slider/4.webp" type="image/webp">
+								<img src="img/pages/outlander/slider/4.jpg" alt="program" class="info-slider__slide">
+							</picture>
+						</a>
+					</div>
+					<div>
+						<a href="img/pages/outlander/slider/5.jpg" data-fancybox="slider">
+							<picture>
+								<source srcset="img/pages/outlander/slider/5.webp" type="image/webp">
+								<img src="img/pages/outlander/slider/5.jpg" alt="program" class="info-slider__slide">
+							</picture>
+						</a>
+					</div>
+					<div>
+						<a href="img/pages/outlander/slider/6.jpg" data-fancybox="slider">
+							<picture>
+								<source srcset="img/pages/outlander/slider/6.webp" type="image/webp">
+								<img src="img/pages/outlander/slider/6.jpg" alt="program" class="info-slider__slide">
+							</picture>
+						</a>
+					</div>
+				</div>
+				<div class="info-slider-nav">
+					<div>
+						<picture>
+							<source srcset="img/pages/outlander/slider/1_min.webp" type="image/webp">
+							<img src="img/pages/outlander/slider/1_min.jpg" alt="program" class="info-slider__slide">
+						</picture>
+					</div>
+					<div>
+						<picture>
+							<source srcset="img/pages/outlander/slider/2_min.webp" type="image/webp">
+							<img src="img/pages/outlander/slider/2_min.jpg" alt="program" class="info-slider__slide">
+						</picture>
+					</div>
+					<div>
+						<picture>
+							<source srcset="img/pages/outlander/slider/3_min.webp" type="image/webp">
+							<img src="img/pages/outlander/slider/3_min.jpg" alt="program" class="info-slider__slide">
+						</picture>
+					</div>
+					<div>
+						<picture>
+							<source srcset="img/pages/outlander/slider/4_min.webp" type="image/webp">
+							<img src="img/pages/outlander/slider/4_min.jpg" alt="program" class="info-slider__slide">
+						</picture>
+					</div>
+					<div>
+						<picture>
+							<source srcset="img/pages/outlander/slider/5_min.webp" type="image/webp">
+							<img src="img/pages/outlander/slider/5_min.jpg" alt="program" class="info-slider__slide">
+						</picture>
+					</div>
+					<div>
+						<picture>
+							<source srcset="img/pages/outlander/slider/6_min.webp" type="image/webp">
+							<img src="img/pages/outlander/slider/6_min.jpg" alt="program" class="info-slider__slide">
+						</picture>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="programs" class="programs">
+	<div class="container">
+		<div class="row align-items-end">
+			<div class="col-lg-5 col-md-6">
+				<div class="programs-ttl">
+					<span class="programs-ttl__note">Programs</span>
+					<h3 class="programs-ttl__ttl">Программы, которые помогут сделать выбор в пользу <span>Mitsubishi</span></h3>
+				</div>
+				<div id="tradein" class="programs-item">
+					<div class="programs-item__flex">
+						<div class="programs-item__wrap">
+							<picture class="d-block d-sm-none">
+								<source srcset="img/program1.webp" type="image/webp">
+								<img src="img/program1.png" alt="program" class="programs-item__img">
+							</picture>
+							<h4 class="programs-item__ttl">Trade IN</h4>
+							<p class="programs-item__txt programs-item__txt_i1">Оценим Ваш автомобиль за 10 минут. Воспользуйтесь возможностью сэкономить ваше время и деньги, сдав Ваш старый автомобиль по программе обмена.</p>
+						</div>
+						<div class="programs-item__wrap d-none d-sm-block">
+							<picture>
+								<source srcset="img/program1.webp" type="image/webp">
+								<img src="img/program1.png" alt="program" class="programs-item__img">
+							</picture>
+						</div>
+					</div>
+					<a href="#modal" class="programs-item__btn fancybox open" data-title="Поможем <span>выгодно</span> продать Ваше авто и купить новое!<br>Оставьте заявку для просчета" data-button="Отправить" data-form="Заявка на Trade In">Получить предложение</a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="programs-item programs-item_i2">
+					<picture>
+						<source srcset="img/program2.webp" type="image/webp">
+						<img src="img/program2.png" alt="program" class="programs-item__img programs-item__img_mb">
+					</picture>
+					<h4 class="programs-item__ttl">Корпоративные продажи</h4>
+					<p class="programs-item__txt programs-item__txt_mb">Выгодные условия для корпоративных клиентов при покупке и обслуживании нескольких автомобилей Mitsubishi у нас</p>
+					<a href="#modal" class="programs-item__btn fancybox open" data-title="Самые <span>выгодные условия</span> приобретения авто для Вашего бизнеса вы можете получить отправив заявку" data-button="Отправить" data-form="Выгодные условия по корп. продажам">Получить предложение</a>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<div id="credit" class="programs-item programs-item_i3">
+					<picture>
+						<source srcset="img/program3.webp" type="image/webp">
+						<img src="img/program3.png" alt="program" class="programs-item__img programs-item__img_mb">
+					</picture>
+					<h4 class="programs-item__ttl">Кредитование</h4>
+					<p class="programs-item__txt programs-item__txt_mb">Выберите удобные для вас условия кредитования:<br>- Со ставкой 0,01% на срок до 3 лет;<br>- С предоплатой от 10% на срок до 7 лет.<br>- Без обязательного страхования КАСКО<br>- Без обязательного первого взноса</p>
+					<a href="#modal" class="programs-item__btn fancybox open" data-title="Самые <span>выгодные предложения</span> от лучших банков Вы найдете у нас.<br>Отправьте обращение и представитель банка свяжется с Вами." data-button="Отправить" data-form="Заявка на Кредитование">Получить предложение</a>
+				</div>
+			</div>
+			<div class="col-lg-7 offset-lg-2 col-md-6 align-self-start align-self-lg-end">
+				<div id="lising" class="programs-item programs-item_i4">
+					<picture class="d-block d-sm-none">
+						<source srcset="img/program4.webp" type="image/webp">
+						<img src="img/program4.png" alt="program" class="programs-item__img">
+					</picture>
+					<h4 class="programs-item__ttl">Лизинг</h4>
+					<p class="programs-item__txt programs-item__txt_i4">Лучший способом приобрести авто для юридических лиц - это лизинг. Его безоговорочными преимуществами являются: минимальный документооборот, меньшие первоначальные затраты и быстрое принятие решения - с нашими партнерами до 3 дней для юридических лиц</p>
+					<a href="#modal" class="programs-item__btn fancybox open" data-title="Получите <span>индивидуальное предложение</span> для Вашего бизнеса" data-button="Отправить" data-form="Индивидуальное предложение по лизингу">Получить предложение</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="sale">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h3 class="sale-ttl">Акции</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="sale-item sale-item_first">
+					<div class="sale-item__wrap">
+						<p class="sale-item__txt">Уникально только у нас - ГБО с сохранением заводской гарантии на авто</p>
+						<p class="sale-item__txt">Экономьте до 8 тыс. грн на 15 тыс. км</p>
+						<a href="#modal" class="sale-item__btn fancybox open" data-title="Узнайте всю информацию по <span>установки ГБО</span> на свое авто" data-button="Отправить" data-form="Информация по ГБО"><span>Подробнее</span></a>
+					</div>
+					<div class="sale-item__wrap d-none d-sm-block">
+						<picture>
+							<source srcset="img/sale1.webp" type="image/webp">
+							<img src="img/sale1.png" alt="program" class="programs-item__img">
+						</picture>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="sale-item sale-item_second">
+					<div class="sale-item__wrap">
+						<p class="sale-item__txt"><span>SALE!</span></p>
+						<p class="sale-item__txt">Распродажа склада!<br>Кое-что секретное мы припрятали для Вас!</p>
+						<a href="#modal" class="sale-item__btn fancybox open" data-title="<span>Распродажа склада</span><br>Узнайте первым, что в этом месяце мы распродаем по уникальной цене" data-button="Отправить" data-form="Информация по распродаже склада"><span>Подробнее</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<a href="specials.html" class="sale-btn"><span>Посмотреть все акции</span></a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="about" class="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-5 offset-lg-1 col-md-6">
+				<div class="about-ttl">
+					<span class="about-ttl__note">About us</span>
+					<h3 class="about-ttl__ttl">О нас</h3>
+				</div>
+				<p class="about-txt"><span>ООО «ИНТЕРАВТО-ПОЛТАВА»</span> - официальный дилер MITSUBISHI MOTORS в Полтавской и Сумской областях, основанный в 2007 году. Является одним из лидеров украинского автомобильного рынка в соответствующих сегментах - кроссоверы и внедорожники.<br><br>В нашей команде работает 26 специалистов для того, чтобы процесс покупки и обслуживания Вашего Mitsubishi был максимально комфортным и быстрым. Все работники прошли сертификацию и регулярно повышают свою квалификацию, чтобы Вы могли подобрать авто именно под Ваши потребности и наслаждаться качественным сервисом.</p>
+				<p class="about-txt">Высококвалифицированный персонал проводит обслуживание Вашего Mitsubishi на современном оборудовании в кратчайшие сроки.<br>Мы стремимся к тому, чтобы Вы остались довольны посещением нашего автосалона и не искали альтернативных вариантов.<br><br>Поэтому, если Вы давно мечтали о качественном автомобиле японского производства, то сейчас самое время купить Mitsubishi в официальном дилерском центре «ИНТЕРАВТО-ПОЛТАВА».</p>
+			</div>
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-sm-4 col-6">
+						<picture>
+							<source srcset="img/about/1.webp" type="image/webp">
+							<img src="img/about/1.jpg" alt="program" class="about-img about-img_i1">
+						</picture>
+						<p class="about-item about-item_black">основан<br>в <span>2007</span> году</p>
+						<picture>
+							<source srcset="img/about/2.webp" type="image/webp">
+							<img src="img/about/2.jpg" alt="program" class="about-img about-img_i2">
+						</picture>
+					</div>
+					<div class="col-sm-4 col-6">
+						<picture>
+							<source srcset="img/about/3.webp" type="image/webp">
+							<img src="img/about/3.jpg" alt="program" class="about-img about-img_i3">
+						</picture>
+						<picture>
+							<source srcset="img/about/4.webp" type="image/webp">
+							<img src="img/about/4.jpg" alt="program" class="about-img about-img_i4">
+						</picture>
+						<picture>
+							<source srcset="img/about/5.webp" type="image/webp">
+							<img src="img/about/5.jpg" alt="program" class="about-img about-img_i5">
+						</picture>
+					</div>
+					<div class="col-sm-4">
+						<p class="about-item about-item_last"><span>Лидер</span><br>рынка</p>
+						<picture>
+							<source srcset="img/about/6.webp" type="image/webp">
+							<img src="img/about/6.jpg" alt="program" class="about-img about-img_i6 d-none d-sm-block">
+						</picture>
+						<p class="about-item about-item_last">команда<br>из <span>26</span><br>специалистов</p>
+						<picture>
+							<source srcset="img/about/7.webp" type="image/webp">
+							<img src="img/about/7.jpg" alt="program" class="about-img about-img_i7 d-none d-sm-block">
+						</picture>
+					</div>
+					<a href="#modal" class="about-btn fancybox open" data-title="Вы може оставить заявку руководителю нашего автоцентра и он подберет <span>лучшее предложение</span> для Вас" data-button="Отправить" data-form="Получить персональное предложение"><span>Получить персональное<br>предложение</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="reviews" class="reviews">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="reviews-ttl">
+					<span class="reviews-ttl__note">Reviews</span>
+					<h3 class="reviews-ttl__ttl">Отзывы</h3>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div class="reviews-slider">
+					<div>
+						<div class="review">
+							<div class="review-video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/M2UJnA9s6Ig" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="review-item">
+								<p class="review-item__txt">Вот мое новое приобретение – автомобиль Міtsubishi. Если сравнивать с чем-то из человеческой жизни – это похоже на очень хорошего друга, от которого ты особо ничего не ждешь, он просто симпатичен, а потом оказывается, что он мастер «на все руки», все может, безотказный и очень надежный. Міtsubishi – потому что надежный! Конечно, я сначала изучал различную информацию и выяснил для себя, что по отзывам владельцев – это исключительная надежность! Кроме того, хочу заметить, что хороший персонал мне повстречался, моего менеджера зовут Роман, очень приятно было с ним работать и в том, что я счастливый владелец – именно его заслуга!</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="review">
+							<div class="review-video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/vSOLxIVGDI4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="review-item">
+								<p class="review-item__txt">Мы приобрели новую машину Mitsubishi ASX – очень ей довольны! Сперва переживали, но благодаря сотрудникам салона все прошло гладко, быстро, спокойно. Мы очень им благодарны! У нас базовая модель, в ней есть все, что необходимо. Очень было приятно покупать автомобиль именно в Вашем салоне!</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="review">
+							<div class="review-video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/71FXbU9ph3c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="review-item">
+								<p class="review-item__txt">Бренд Mitsubishi – это наши семейные автомобили! Мы долго выбирали, но остановились именно на этом бренде. Спасибо Вам!</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="review">
+							<div class="review-video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/VC6ESOrTy3E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="review-item">
+								<p class="review-item__txt">В двух словах расскажу об автомобиле – в использовании около двух месяцев, его покупали для спасательно-водолазной службы, всем остался доволен, автомобиль имеет действительно хорошую проходимость. Рекомендую!</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="review">
+							<div class="review-video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/8sFImJLz5tA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="review-item">
+								<p class="review-item__txt">L200 – очень классная машина, мне нравилась уже лет  10. Я стремился и заработал на нее! Спасибо менеджерам,  машина - «бомба»!</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="review">
+							<div class="review-video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/hudd6xaBhas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="review-item">
+								<p class="review-item__txt">Современный авторынок предлагает нам - покупателям широкий спектр транспорта, но выбор этого авто японского качества говорит сам за себя. Приобретая его обратился в центр, в котором профессионалы все показали, рассказали, провели тест-драйв, ответили на все вопросы – обслуживанием остался доволен! Машина очень надежная, отлично проявляет себя как по дорогам, так и вне дорог, очень приятная по расходу топлива. Я переживал за работу коробки передач – вариатора, но он не «проваливается», хорошо реагирует на все операции с педалью газа и тормоза. Все прекрасно, очень рад!</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="review">
+							<div class="review-video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/Ba8U0BFoML8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="review-item">
+								<p class="review-item__txt">Автомобиль Mitsubishi Outlander понравился потому, что очень вместительный, достаточно высокий клиренс, полезные опции, дизайн – все очень нравится! Приобретали в г.Полтава, отличный коллектив, помогли со всем: выбрать комплектацию, цвет, оформить документы, зарегистрировать автомобиль. Все отлично!</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="review">
+							<div class="review-video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/KgU1H8HaCck" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="review-item">
+								<p class="review-item__txt">Хочу рассказать о сервисе Міtsubishi, которым пользуюсь уже 5 лет. Очень  доволен, есть большой ряд преимуществ  - очень тщательный поход, отличная гарантия, салон и сервис работают в субботу и воскресенье, что очень удобно и я не встречал такого ранее в г. Полтава.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="personal">
+	<picture>
+		<source srcset="img/personal_img.webp" type="image/webp">
+		<img src="img/personal_img.png" alt="personal" class="personal-img d-none d-lg-block">
+	</picture>
+	<div class="container">
+		<div class="row align-items-end">
+			<div class="col-lg-4 col-sm-6">
+				<h3 class="personal-ttl"><span>Получить персональное предложение</span></h3>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<p class="personal-txt">Мы знаем, как Вас удивить,  а потому готовы предложить лучшие условия.<br>Получите  персональное предложение в свой мессенджер.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<form action="mail.php" method="POST" class="form_check personal-form">
+					<div class="rline">
+						<input type="text" name="name" class="personal-form__input rfield" placeholder="Ваше имя">
+					</div>
+					<div class="rline">
+						<input type="text" name="phone" class="personal-form__input rfield phonefield" placeholder="Ваш телефон/viber">
+					</div>
+					<button type="submit" class="personal-form__btn btnsubmit">Отправить</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer id="contacts" class="foot">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="foot-ttl">
+					<h3 class="foot-ttl__ttl">Контакты</h3>
+				</div>
+				<h4 class="foot-subttl"><strong>ИНТЕРАВТО-ПОЛТАВА</strong>Официальный дилер <span>Mitsubishi Motors</span> в Полтавской области</h4>
+				<p class="foot-addr">ул. Киевское Шоссе, 29,<br>г. Полтава, Украина, 36008</p>
+				<a href="mailto:info@interavto.poltava.ua" class="foot-eml">info@interavto.poltava.ua</a>
+			</div>
+			<div class="col-md-8">
+				<div class="row">
+					<div class="col-sm-4">
+						<h4 class="foot-item__ttl">Отдел продаж:</h4>
+						<a href="tel:+380504050555" class="foot-item__link">+38 (050) 405 05 55</a>
+						<a href="tel:+380532642655" class="foot-item__link">+38 (0532) 64 26 55</a>
+					</div>
+					<div class="col-sm-4">
+						<h4 class="foot-item__ttl">Отдел сервиса:</h4>
+						<a href="tel:+380504050777" class="foot-item__link">+38 (050) 405 07 77</a>
+						<a href="tel:+380532642400" class="foot-item__link">+38 (0532) 64 24 00</a>
+					</div>
+					<div class="col-sm-4">
+						<a href="https://www.facebook.com/mitsubishi.interavto.poltava" target="_blank" class="foot-soc"><span class="facebook"></span><p>Мы в Facebook</p></a>
+						<a href="https://instagram.com/mitsubishi.poltava" target="_blank" class="foot-soc"><span class="instagram"></span><p>Мы в Instagram</p></a>
+						<a href="https://youtube.com/playlist?list=PLo14bPG08yfWL6sCqfL9a8GPqt59cMKVc" target="_blank" class="foot-soc"><span class="youtube"></span><p>Мы в YouTube</p></a>
+					</div>
+				</div>
+				<div class="foot-map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2587.9466504741713!2d34.502156015699455!3d49.561029779362585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d82f414fb07521%3A0xaa7c7cb4c9418412!2z0IbQvdGC0LXRgNCw0LLRgtC-!5e0!3m2!1suk!2sua!4v1609174974723!5m2!1suk!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<footer class="last">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-4 d-none d-md-block">
+				<a href="index.html">
+					<picture>
+						<source srcset="img/logo_last.webp" type="image/webp">
+						<img src="img/logo_last.png" alt="logo" class="last-logo">
+					</picture>
+				</a>
+			</div>
+			<div class="col-md-2 col-sm-4">
+				<ul class="last-list">
+					<li class="last-list__li"><a href="index.html">Главная</a></li>
+					<li class="last-list__li"><a href="pajero.html">Pajero Sport</a></li>
+					<li class="last-list__li"><a href="asx.html">ASX</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2 col-sm-4">
+				<ul class="last-list">
+					<li class="last-list__li"><a href="l200.html">L200</a></li>
+					<li class="last-list__li"><a href="outlander.html">Outlander</a></li>
+					<li class="last-list__li"><a href="eclipse-cross.html">Eclipse Cross</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2 col-sm-4">
+				<ul class="last-list">
+					<li class="last-list__li"><a href="#about" class="anchor">О нас</a></li>
+					<li class="last-list__li"><a href="specials.html">Акции</a></li>
+					<li class="last-list__li"><a href="#contacts" class="anchor">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2">
+				<a href="https://wamp.com.ua/" target="_blank" class="dev">
+					<p class="dev-txt">Разработка и реклама:</p>
+					<picture>
+						<source srcset="img/dev_logo.webp" type="image/webp">
+						<img src="img/dev_logo.png" alt="logo" class="dev-logo">
+					</picture>
+				</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<div class="d-none">
+	<div id="thn" class="thn">
+		<h3>Заявка отправлена!</h3>
+		<p>С Вами свяжутся в ближайшее время.</p>
+	</div>
+
+	<div id="modal" class="modal">
+		<div class="modal-wrap">
+			<div class="modal-close"></div>
+			<form action="mail.php" method="POST" class="modal-form form_check">
+				<input type="hidden" name="title">
+				<input type="hidden" name="price">
+				<div class="modal-form__wrap">
+					<h3 class="modal-form__ttl"></h3>
+					<div class="rline">
+						<input type="text" name="name" class="modal-form__input rfield" placeholder="Ваше имя">
+					</div>
+					<div class="rline">
+						<input type="text" name="phone" class="modal-form__input rfield phonefield" placeholder="Ваш телефон/viber">
+					</div>
+					<button class="modal-form__btn btnsubmit"><span></span></button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<script src="js/scripts.min.js"></script>
+
+<script>
+    (function(w,d,u){
+        var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+        var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+    })(window,document,'https://cdn.bitrix24.ua/b10136629/crm/site_button/loader_2_dgrpri.js');
+</script>
+<!-- Hotjar Tracking Code for www.mitsubishi-poltava.com.ua -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2164595,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>Mitsubishi</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!--
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="">
+	<meta property="og:image" content=""/>
+	-->
+
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<meta name="theme-color" content="#ED0022">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+	<link rel="preload" as="font" href="fonts/MMCOFFICE-Bold/MMCOFFICE-Bold.woff"  crossorigin>
+	<link rel="preload" as="font" href="fonts/MMCOFFICE-Medium/MMCOFFICE-Medium.woff"  crossorigin>
+	<link rel="preload" as="font" href="fonts/MMCOFFICE-Regular/MMCOFFICE-Regular.woff"  crossorigin>
+
+</head>
+
+<body>
+
+<nav class="nav">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-2 col-6">
+				<a href="index.html" class="nav-logo">
+					<picture>
+						<source srcset="img/logo.webp" type="image/webp">
+						<img src="img/logo.png" alt="logo">
+					</picture>
+					<span class="nav-logo__txt">Интеравто-Полтава</span>
+				</a>
+			</div>
+			<div class="col-md-7 d-none d-md-block">
+				<ul class="nav-list">
+					<li class="nav-list__li"><a href="index.html">Главная</a></li>
+					<li class="nav-list__li"><a href="index.html#lising" class="anchor">Лизинг</a></li>
+					<li class="nav-list__li"><a href="index.html#tradein" class="anchor">Trade In</a></li>
+					<li class="nav-list__li"><a href="index.html#credit" class="anchor">Кредитование</a></li>
+					<li class="nav-list__li"><a href="#reviews" class="anchor">Отзывы</a></li>
+					<li class="nav-list__li"><a href="#about" class="anchor">О нас</a></li>
+					<li class="nav-list__li"><a href="specials.html">Акции</a></li>
+					<li class="nav-list__li"><a href="#contacts" class="anchor">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2 d-none d-md-block">
+				<a href="tel:+380504050555" class="nav-phone">+38 (050) 405 05 55</a>
+			</div>
+			<div class="col-md-1 d-none d-md-block">
+				<div class="nav-lang">
+					<a href="#" class="nav-lang__item active">Ru</a>
+					<a href="#" class="nav-lang__item">Ukr</a>
+				</div>
+			</div>
+			<div class="col-6 d-block d-md-none">
+				<button class="nav-mob__link">
+					<img src="img/menu.svg" alt="menu">
+				</button>
+			</div>
+		</div>
+	</div>
+	<nav class="nav-mob d-flex d-md-none">
+		<div class="container">
+			<ul class="nav-list">
+				<li class="nav-list__li"><a href="index.html">Главная</a></li>
+				<li class="nav-list__li"><a href="index.html#lising" class="anchor">Лизинг</a></li>
+				<li class="nav-list__li"><a href="index.html#tradein" class="anchor">Trade In</a></li>
+				<li class="nav-list__li"><a href="index.html#credit" class="anchor">Кредитование</a></li>
+				<li class="nav-list__li"><a href="#reviews" class="anchor">Отзывы</a></li>
+				<li class="nav-list__li"><a href="#about" class="anchor">О нас</a></li>
+				<li class="nav-list__li"><a href="specials.html">Акции</a></li>
+				<li class="nav-list__li"><a href="#contacts" class="anchor">Контакты</a></li>
+			</ul>
+			<a href="tel:+380504050555" class="nav-phone">+38 (050) 405 05 55</a>
+			<div class="nav-lang">
+				<a href="#" class="nav-lang__item active">Ru</a>
+				<a href="#" class="nav-lang__item">Ukr</a>
+			</div>
+		</div>
+	</nav>
+</nav>
+
+<nav class="model-menu d-none d-md-block">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-2">
+				<a href="pajero.html" class="model-menu-item">
+					<picture>
+						<source srcset="img/model-menu1.webp" type="image/webp">
+						<img src="img/model-menu1.png" alt="model" class="model-menu-item__img">
+					</picture>
+					<p class="model-menu-item__txt">Pajero Sport</p>
+				</a>
+			</div>
+			<div class="col-md-2">
+				<a href="asx.html" class="model-menu-item">
+					<picture>
+						<source srcset="img/model-menu2.webp" type="image/webp">
+						<img src="img/model-menu2.png" alt="model" class="model-menu-item__img">
+					</picture>
+					<p class="model-menu-item__txt">ASX</p>
+				</a>
+			</div>
+			<div class="col-md-2">
+				<a href="l200.html" class="model-menu-item">
+					<picture>
+						<source srcset="img/model-menu3.webp" type="image/webp">
+						<img src="img/model-menu3.png" alt="model" class="model-menu-item__img">
+					</picture>
+					<p class="model-menu-item__txt">L200</p>
+				</a>
+			</div>
+			<div class="col-md-2">
+				<a href="outlander.html" class="model-menu-item">
+					<picture>
+						<source srcset="img/model-menu4.webp" type="image/webp">
+						<img src="img/model-menu4.png" alt="model" class="model-menu-item__img">
+					</picture>
+					<p class="model-menu-item__txt">Outlander</p>
+				</a>
+			</div>
+			<div class="col-md-2">
+				<a href="eclipse-cross.html" class="model-menu-item">
+					<picture>
+						<source srcset="img/model-menu5.webp" type="image/webp">
+						<img src="img/model-menu5.png" alt="model" class="model-menu-item__img">
+					</picture>
+					<p class="model-menu-item__txt">Eclipse Cross</p>
+				</a>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<header class="special-head">
+	<picture>
+		<source srcset="img/pages/special/head_bg.webp" type="image/webp">
+		<img src="img/pages/special/head_bg.png" alt="head_bg" class="special-head__img">
+	</picture>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-6 col-sm-7">
+				<h1 class="special-head__ttl">Как сэкономить на покупке нового Mitsubishi?</h1>
+				<h2 class="special-head__txt">Предлагаем ознакомиться с выгодными предложениями этого месяца от нашего  Автоцентра "Интеравто-Полтава"</h2>
+				<a href="#modal" class="special-head__btn fancybox open" data-title="Узнайте о лучших предложениях от официального дилера <span>«Интеравто- Полтава»</span>" data-button="Подписаться" data-form="Подписаться на Акции"><span>Подписаться на Акции</span></a>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section class="specials">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="special-item special-item_white">
+					<div class="special-item__flex">
+						<h4 class="special-item__ttl">Распродажа тестового Outlander</h4>
+						<picture class="special-item__img">
+							<source srcset="img/pages/special/spec1.webp" type="image/webp">
+							<img src="img/pages/special/spec1.jpg" alt="special">
+						</picture>
+					</div>
+					<div class="special-item__txt">
+						Наконец-то стартовали продажи тестового Outlander Ultimate! Волшебный белый цвет и пробег всего 900 км!<br>- максимальная комплектация<br>- гарантия 5 лет<br>- полный привод и 7 мест<br>Выгодное предложение этой осени - детали по телефону, только 1 автомобиль!
+					</div>
+					<a href="#modal" class="special-item__btn fancybox open" data-title="Только профессиональные менеджеры, которые ездят на Mitsubishi смогут рассказавать Вам о всех деталях предложения" data-button="Отправить" data-form="Больше информации об Акции"><span>Больше информации</span></a>
+				</div>
+				<div class="special-item special-item_black">
+					<div class="special-item__flex">
+						<picture class="special-item__img special-item__img_w100">
+							<source srcset="img/pages/special/spec2.webp" type="image/webp">
+							<img src="img/pages/special/spec2.jpg" alt="special">
+						</picture>
+					</div>
+					<div class="special-item__txt">
+						Собираете деньги на новый автомобиль? Это прошлый век, ведь сейчас все берут в рассрочку или кредит, потому что это РЕАЛЬНО выгодно! Вы не верите? Просто позвоните и получите расчет, такие условия только у Mitsubishi!<br>- кредит на 1 год со ставкой 0,01% и без обязательного страхования КАСКО с первым взносом от 70%<br>- кредит под 0,01% на 3 года<br>- кредит на 6 лет
+					</div>
+					<a href="#modal" class="special-item__btn fancybox open" data-title="Только профессиональные менеджеры, которые ездят на Mitsubishi смогут рассказавать Вам о всех деталях предложения" data-button="Отправить" data-form="Больше информации об Акции"><span>Больше информации</span></a>
+				</div>
+				<div class="special-item special-item_white">
+					<div class="special-item__flex">
+						<h4 class="special-item__ttl">ОН наконец-то В УКРАИНЕ! Новый ASX</h4>
+						<picture class="special-item__img">
+							<source srcset="img/pages/special/spec3.webp" type="image/webp">
+							<img src="img/pages/special/spec3.jpg" alt="special">
+						</picture>
+					</div>
+					<div class="special-item__txt">
+						Внимание! Автомобиль в наличии - спешите забронировать стильный и компактный ASX и Вы получите:<br>- климат-контроль и Full-LED оптику во всех комплектациях<br>- 5 лет гарантии<br>- возможность установить ГБО и сохранить гарантию на автомобиль<br>- возможность приобрести автомобиль в кредит или получить лизинг на самых выгодных условиях
+					</div>
+					<a href="#modal" class="special-item__btn fancybox open" data-title="Только профессиональные менеджеры, которые ездят на Mitsubishi смогут рассказавать Вам о всех деталях предложения" data-button="Отправить" data-form="Больше информации об Акции"><span>Больше информации</span></a>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="special-item special-item_black">
+					<div class="special-item__flex">
+						<picture class="special-item__img special-item__img_w100">
+							<source srcset="img/pages/special/spec4.webp" type="image/webp">
+							<img src="img/pages/special/spec4.jpg" alt="special">
+						</picture>
+						<h4 class="special-item__block"><span>Eclipse Cross – стиль с характером!</span></h4>
+					</div>
+					<div class="special-item__txt">
+						Автомобиль в наличии! Мега крутой и технологический Eclipse Cross в салоне "Интеравто-Полтава", приезжайте и выбирайте свою комплектацию!<br><br>Eclipse Cross Ultimate - это впечатляющий дизайн и невероятный восторг от вождения. Только в ноябре спецпредложение от автосалона, приезжайте и узнавайте детали!<br>- 5 лет гарантии на автомобиль и 12 на кузов<br>- аудио система премиум класса Rockford Fosgate для настоящих ценителей музыки<br>- ассистент дальнего света, не слепит водителей встречной полосы<br>- адаптивный круиз-контроль и ассистент смены полосы движения - потому что безопасность превыше всего<br>- система Super All Wheel Control - почувствуйте настоящий комфорт от вождения
+					</div>
+					<a href="#modal" class="special-item__btn fancybox open" data-title="Только профессиональные менеджеры, которые ездят на Mitsubishi смогут рассказавать Вам о всех деталях предложения" data-button="Отправить" data-form="Больше информации об Акции"><span>Больше информации</span></a>
+				</div>
+				<div class="special-item special-item_white">
+					<div class="special-item__flex">
+						<h4 class="special-item__ttl">ASX и Outlander -3%</h4>
+						<picture class="special-item__img">
+							<source srcset="img/pages/special/spec5.webp" type="image/webp">
+							<img src="img/pages/special/spec5.jpg" alt="special">
+						</picture>
+					</div>
+					<div class="special-item__txt">
+						Вы должны это попробовать!<br>Крутой тест-драйв и множество положительных эмоций! Приезжайте и узнавайте, на что способен вместительный семейный кроссовер Mitsubishi Outlander или компактный и стильный ASX! Регистрируйтесь на тест-драйв прямо сейчас и Вы получите:<br>- дополнительную скидку 3%<br>- возможность испытать компактный городской кроссовер и большой семейный автомобиль в городе и на бездорожье<br>- возможность приехать на своем используемом автомобиле и обменять его на новенький Mitsubishi<br>- расчет кредита или лизинга<br>Спешите, ведь количество автомобилей ограничено!
+					</div>
+					<a href="#modal" class="special-item__btn fancybox open" data-title="Только профессиональные менеджеры, которые ездят на Mitsubishi смогут рассказавать Вам о всех деталях предложения" data-button="Отправить" data-form="Больше информации об Акции"><span>Больше информации</span></a>
+				</div>
+				<div class="special-item special-item_black">
+					<div class="special-item__flex">
+						<h4 class="special-item__ttl">ОН наконец-то В УКРАИНЕ! Новый OUTLANDER</h4>
+						<picture class="special-item__img">
+							<source srcset="img/pages/special/spec1.webp" type="image/webp">
+							<img src="img/pages/special/spec1.jpg" alt="special">
+						</picture>
+					</div>
+					<div class="special-item__txt">
+						Внимание! Автомобиль в наличии - спешите забронировать стильный и компактный ASX и Вы получите:<br>- климат-контроль и Full-LED оптику во всех комплектациях<br>- 5 лет гарантии<br>- возможность установить ГБО и сохранить гарантию на автомобиль<br>- возможность приобрести автомобиль в кредит или получить лизинг на самых выгодных условиях
+					</div>
+					<a href="#modal" class="special-item__btn fancybox open" data-title="Только профессиональные менеджеры, которые ездят на Mitsubishi смогут рассказавать Вам о всех деталях предложения" data-button="Отправить" data-form="Больше информации об Акции"><span>Больше информации</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="reviews" class="reviews">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="reviews-ttl">
+					<span class="reviews-ttl__note">Reviews</span>
+					<h3 class="reviews-ttl__ttl">Отзывы</h3>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div class="reviews-slider">
+					<div>
+						<div class="review">
+							<div class="review-video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/M2UJnA9s6Ig" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="review-item">
+								<p class="review-item__txt">Вот мое новое приобретение – автомобиль Міtsubishi. Если сравнивать с чем-то из человеческой жизни – это похоже на очень хорошего друга, от которого ты особо ничего не ждешь, он просто симпатичен, а потом оказывается, что он мастер «на все руки», все может, безотказный и очень надежный. Міtsubishi – потому что надежный! Конечно, я сначала изучал различную информацию и выяснил для себя, что по отзывам владельцев – это исключительная надежность! Кроме того, хочу заметить, что хороший персонал мне повстречался, моего менеджера зовут Роман, очень приятно было с ним работать и в том, что я счастливый владелец – именно его заслуга!</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="review">
+							<div class="review-video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/vSOLxIVGDI4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="review-item">
+								<p class="review-item__txt">Мы приобрели новую машину Mitsubishi ASX – очень ей довольны! Сперва переживали, но благодаря сотрудникам салона все прошло гладко, быстро, спокойно. Мы очень им благодарны! У нас базовая модель, в ней есть все, что необходимо. Очень было приятно покупать автомобиль именно в Вашем салоне!</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="review">
+							<div class="review-video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/71FXbU9ph3c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="review-item">
+								<p class="review-item__txt">Бренд Mitsubishi – это наши семейные автомобили! Мы долго выбирали, но остановились именно на этом бренде. Спасибо Вам!</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="review">
+							<div class="review-video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/VC6ESOrTy3E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="review-item">
+								<p class="review-item__txt">В двух словах расскажу об автомобиле – в использовании около двух месяцев, его покупали для спасательно-водолазной службы, всем остался доволен, автомобиль имеет действительно хорошую проходимость. Рекомендую!</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="review">
+							<div class="review-video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/8sFImJLz5tA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="review-item">
+								<p class="review-item__txt">L200 – очень классная машина, мне нравилась уже лет  10. Я стремился и заработал на нее! Спасибо менеджерам,  машина - «бомба»!</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="review">
+							<div class="review-video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/hudd6xaBhas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="review-item">
+								<p class="review-item__txt">Современный авторынок предлагает нам - покупателям широкий спектр транспорта, но выбор этого авто японского качества говорит сам за себя. Приобретая его обратился в центр, в котором профессионалы все показали, рассказали, провели тест-драйв, ответили на все вопросы – обслуживанием остался доволен! Машина очень надежная, отлично проявляет себя как по дорогам, так и вне дорог, очень приятная по расходу топлива. Я переживал за работу коробки передач – вариатора, но он не «проваливается», хорошо реагирует на все операции с педалью газа и тормоза. Все прекрасно, очень рад!</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="review">
+							<div class="review-video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/Ba8U0BFoML8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="review-item">
+								<p class="review-item__txt">Автомобиль Mitsubishi Outlander понравился потому, что очень вместительный, достаточно высокий клиренс, полезные опции, дизайн – все очень нравится! Приобретали в г.Полтава, отличный коллектив, помогли со всем: выбрать комплектацию, цвет, оформить документы, зарегистрировать автомобиль. Все отлично!</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="review">
+							<div class="review-video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/KgU1H8HaCck" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="review-item">
+								<p class="review-item__txt">Хочу рассказать о сервисе Міtsubishi, которым пользуюсь уже 5 лет. Очень  доволен, есть большой ряд преимуществ  - очень тщательный поход, отличная гарантия, салон и сервис работают в субботу и воскресенье, что очень удобно и я не встречал такого ранее в г. Полтава.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="about" class="about about_pt50">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-5 offset-lg-1 col-md-6">
+				<div class="about-ttl">
+					<span class="about-ttl__note">About us</span>
+					<h3 class="about-ttl__ttl">О нас</h3>
+				</div>
+				<p class="about-txt"><span>ООО «ИНТЕРАВТО-ПОЛТАВА»</span> - официальный дилер MITSUBISHI MOTORS в Полтавской и Сумской областях, основанный в 2007 году. Является одним из лидеров украинского автомобильного рынка в соответствующих сегментах - кроссоверы и внедорожники.<br><br>В нашей команде работает 26 специалистов для того, чтобы процесс покупки и обслуживания Вашего Mitsubishi был максимально комфортным и быстрым. Все работники прошли сертификацию и регулярно повышают свою квалификацию, чтобы Вы могли подобрать авто именно под Ваши потребности и наслаждаться качественным сервисом.</p>
+				<p class="about-txt">Высококвалифицированный персонал проводит обслуживание Вашего Mitsubishi на современном оборудовании в кратчайшие сроки.<br>Мы стремимся к тому, чтобы Вы остались довольны посещением нашего автосалона и не искали альтернативных вариантов.<br><br>Поэтому, если Вы давно мечтали о качественном автомобиле японского производства, то сейчас самое время купить Mitsubishi в официальном дилерском центре «ИНТЕРАВТО-ПОЛТАВА».</p>
+			</div>
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-sm-4 col-6">
+						<picture>
+							<source srcset="img/about/1.webp" type="image/webp">
+							<img src="img/about/1.jpg" alt="program" class="about-img about-img_i1">
+						</picture>
+						<p class="about-item about-item_black">основан<br>в <span>2007</span> году</p>
+						<picture>
+							<source srcset="img/about/2.webp" type="image/webp">
+							<img src="img/about/2.jpg" alt="program" class="about-img about-img_i2">
+						</picture>
+					</div>
+					<div class="col-sm-4 col-6">
+						<picture>
+							<source srcset="img/about/3.webp" type="image/webp">
+							<img src="img/about/3.jpg" alt="program" class="about-img about-img_i3">
+						</picture>
+						<picture>
+							<source srcset="img/about/4.webp" type="image/webp">
+							<img src="img/about/4.jpg" alt="program" class="about-img about-img_i4">
+						</picture>
+						<picture>
+							<source srcset="img/about/5.webp" type="image/webp">
+							<img src="img/about/5.jpg" alt="program" class="about-img about-img_i5">
+						</picture>
+					</div>
+					<div class="col-sm-4">
+						<p class="about-item about-item_last"><span>Лидер</span><br>рынка</p>
+						<picture>
+							<source srcset="img/about/6.webp" type="image/webp">
+							<img src="img/about/6.jpg" alt="program" class="about-img about-img_i6 d-none d-sm-block">
+						</picture>
+						<p class="about-item about-item_last">команда<br>из <span>26</span><br>специалистов</p>
+						<picture>
+							<source srcset="img/about/7.webp" type="image/webp">
+							<img src="img/about/7.jpg" alt="program" class="about-img about-img_i7 d-none d-sm-block">
+						</picture>
+					</div>
+					<a href="#modal" class="about-btn fancybox open" data-title="Вы може оставить заявку руководителю нашего автоцентра и он подберет <span>лучшее предложение</span> для Вас" data-button="Отправить" data-form="Получить персональное предложение"><span>Получить персональное<br>предложение</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer id="contacts" class="foot">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="foot-ttl">
+					<h3 class="foot-ttl__ttl">Контакты</h3>
+				</div>
+				<h4 class="foot-subttl"><strong>ИНТЕРАВТО-ПОЛТАВА</strong>Официальный дилер <span>Mitsubishi Motors</span> в Полтавской области</h4>
+				<p class="foot-addr">ул. Киевское Шоссе, 29,<br>г. Полтава, Украина, 36008</p>
+				<a href="mailto:info@interavto.poltava.ua" class="foot-eml">info@interavto.poltava.ua</a>
+			</div>
+			<div class="col-md-8">
+				<div class="row">
+					<div class="col-sm-4">
+						<h4 class="foot-item__ttl">Отдел продаж:</h4>
+						<a href="tel:+380504050555" class="foot-item__link">+38 (050) 405 05 55</a>
+						<a href="tel:+380532642655" class="foot-item__link">+38 (0532) 64 26 55</a>
+					</div>
+					<div class="col-sm-4">
+						<h4 class="foot-item__ttl">Отдел сервиса:</h4>
+						<a href="tel:+380504050777" class="foot-item__link">+38 (050) 405 07 77</a>
+						<a href="tel:+380532642400" class="foot-item__link">+38 (0532) 64 24 00</a>
+					</div>
+					<div class="col-sm-4">
+						<a href="https://www.facebook.com/mitsubishi.interavto.poltava" target="_blank" class="foot-soc"><span class="facebook"></span><p>Мы в Facebook</p></a>
+						<a href="https://instagram.com/mitsubishi.poltava" target="_blank" class="foot-soc"><span class="instagram"></span><p>Мы в Instagram</p></a>
+						<a href="https://youtube.com/playlist?list=PLo14bPG08yfWL6sCqfL9a8GPqt59cMKVc" target="_blank" class="foot-soc"><span class="youtube"></span><p>Мы в YouTube</p></a>
+					</div>
+				</div>
+				<div class="foot-map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2587.9466504741713!2d34.502156015699455!3d49.561029779362585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d82f414fb07521%3A0xaa7c7cb4c9418412!2z0IbQvdGC0LXRgNCw0LLRgtC-!5e0!3m2!1suk!2sua!4v1609174974723!5m2!1suk!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<footer class="last">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-4 d-none d-md-block">
+				<a href="index.html">
+					<picture>
+						<source srcset="img/logo_last.webp" type="image/webp">
+						<img src="img/logo_last.png" alt="logo" class="last-logo">
+					</picture>
+				</a>
+			</div>
+			<div class="col-md-2 col-sm-4">
+				<ul class="last-list">
+					<li class="last-list__li"><a href="index.html">Главная</a></li>
+					<li class="last-list__li"><a href="pajero.html">Pajero Sport</a></li>
+					<li class="last-list__li"><a href="asx.html">ASX</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2 col-sm-4">
+				<ul class="last-list">
+					<li class="last-list__li"><a href="l200.html">L200</a></li>
+					<li class="last-list__li"><a href="outlander.html">Outlander</a></li>
+					<li class="last-list__li"><a href="eclipse-cross.html">Eclipse Cross</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2 col-sm-4">
+				<ul class="last-list">
+					<li class="last-list__li"><a href="index.html#about">О нас</a></li>
+					<li class="last-list__li"><a href="specials.html">Акции</a></li>
+					<li class="last-list__li"><a href="#contacts" class="anchor">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2">
+				<a href="https://wamp.com.ua/" target="_blank" class="dev">
+					<p class="dev-txt">Разработка и реклама:</p>
+					<picture>
+						<source srcset="img/dev_logo.webp" type="image/webp">
+						<img src="img/dev_logo.png" alt="logo" class="dev-logo">
+					</picture>
+				</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<div class="d-none">
+	<div id="thn" class="thn">
+		<h3>Заявка отправлена!</h3>
+		<p>С Вами свяжутся в ближайшее время.</p>
+	</div>
+
+	<div id="modal" class="modal">
+		<div class="modal-wrap">
+			<div class="modal-close"></div>
+			<form action="mail.php" method="POST" class="modal-form form_check">
+				<input type="hidden" name="title">
+				<input type="hidden" name="price">
+				<div class="modal-form__wrap">
+					<h3 class="modal-form__ttl"></h3>
+					<div class="rline">
+						<input type="text" name="name" class="modal-form__input rfield" placeholder="Ваше имя">
+					</div>
+					<div class="rline">
+						<input type="text" name="phone" class="modal-form__input phonefield rfield" placeholder="Ваш телефон/viber">
+					</div>
+					<button class="modal-form__btn btnsubmit"><span></span></button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<script src="js/scripts.min.js"></script>
+
+<script>
+    (function(w,d,u){
+        var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+        var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+    })(window,document,'https://cdn.bitrix24.ua/b10136629/crm/site_button/loader_2_dgrpri.js');
+</script>
+<!-- Hotjar Tracking Code for www.mitsubishi-poltava.com.ua -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2164595,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+
+</body>
+</html>
